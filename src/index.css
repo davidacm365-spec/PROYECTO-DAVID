@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Gilda Display", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  
+  --color-editorial-bg: #F4F1EA;
+  --color-editorial-ink: #1A1A1A;
+  --color-editorial-accent: #A64D32;
+  --color-editorial-pane: #E8E4D9;
+  --color-editorial-placeholder: #D9D4C7;
+}
+
+body {
+  background-color: var(--color-editorial-bg);
+  color: var(--color-editorial-ink);
+  font-family: var(--font-sans);
+}
